@@ -1,0 +1,158 @@
+body {
+  width: 1340px;
+  height: 2000px;
+  background: #ffffff;
+}
+
+
+.main-container {
+  position: relative;
+  width: 1240px;
+  height: 2000px;
+  left: 30px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #ee2d0b;
+  margin: 0px 0px 10px 0px;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgb(75, 75, 75);
+}
+
+h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  color: rgb(75, 75, 75);
+}
+
+.title {
+  position: relative;
+  width: 1340px;
+  height: 100px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.title__logo {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  top: 0px;
+  left: 0px;
+}
+
+.title__selector-news {
+  position: relative;
+  width: fit-content;
+  height: 100px;
+  background: transparent;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 120%;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+.news-list {
+  position: relative;
+  width: 1240px;
+  height: fit-content;
+  background: transparent;
+  top: 0px;
+  left: 0px;
+  margin: 0px 0px 0px -42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px
+}
+
+.news-list__news {
+  width: 1240px;
+  height: 120px;
+  margin: 0px;
+  background: transparent;  
+}
+
+.n-l__n__images {
+  width: 220px;
+  height: 120px;
+  margin: 0;
+}
+
+.n-l__n__title {
+  width: 1000px;
+  position: relative;
+  top: -130px;
+  left: 240px;
+  margin: 0;
+}
+
+.n-l__n__description {
+  width: 1000px;
+  position: relative;
+  top: -120px;
+  left: 240px;
+  margin: 0;
+}
+
+.n-l__n__url {
+  position: relative;
+  top: -130px;
+  left: 240px;
+  margin: 0;
+}
+
+.n-l__n__data {
+  position: relative;
+  top: -110px;
+  left: 333px;
+  margin: 0;
+}
